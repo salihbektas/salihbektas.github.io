@@ -1,99 +1,160 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Salih Bektaş</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="new 1.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<style>
-	.fa {
-	  padding: 20px;
-	  font-size: 20px;
-	  width: 250px;
-	  text-align: center;
-	  text-decoration: none;
-	  margin: 5px 2px;
-	}
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Salih Bektaş</title>
 
-	.fa:hover {
-		opacity: 0.7;
-	}
+    <style>
+        body{
+            position: relative;
+        }
+        .navbar{
+            opacity: 0.95;
 
-	.fa-twitter {
-		background: #55ACEE;
-		color: white;
-	}
-	
-	.fa-linkedin {
-		background: #007bb5;
-		color: white;
-	}
-	
-	.fa-instagram {
-		background:  #d92e7f;
-		color: white;
-	}
-	</style>
+        }
+
+        .buttonM {background-color: #f44336; color: white;}
+    </style>
 </head>
-<body class="w3-content" style="max-width:1300px">
-
-<!-- First Grid: Logo & About -->
-<div class="w3-row">
-  <div class="w3-half w3-black w3-container w3-center" style="height:700px">
-    <div class="w3-padding-64">
-      <h1>SALİH BEKTAŞ</h1>
-    </div>
-    <div class="w3-padding-64">
-      <a href="#2" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16">Ben deniz</a>
-      <a href="#3" class="w3-button w3-black w3-block w3-hover-deep-orange w3-padding-16">Ulaşmak istersen</a>
-	  <a href="#4" class="w3-button w3-black w3-block w3-hover-blue-grey w3-padding-16">Ayrıca bakınız</a>
-    </div>
-  </div>
-  <div class="w3-half w3-teal w3-container" id="2" style="height:700px">
-    <div class="w3-padding-64 w3-center">
-      <img src="salih.jpg" class="w3-margin w3-circle" alt="Person" style="width:50%">
-	  <h1>Ben deniz</h1>
-      <div class="w3-left-align w3-padding-large">
-        <p>Gebze Teknik Üniversitesi Bilgisayar Mühendisliği Bölümünde okumakta olan bir mühendis adayıyım.</p>
-        <p>Yeni şeyler ögrenmeyi, teknolojiyi takip etmeyi, fırsat buldukça arkadaşlarımla oyun oynamayı, 
-		kafama estikçe bisiklet ile gezmeyi severim.</p>
-      </div>
-    </div>
-  </div>
-</div>
 
 
-<!-- Third Grid: Swing By & Contact -->
-<div class="w3-row" >
-  <div class="w3-half w3-deep-orange w3-container w3-center" id="3" style="height:700px">
-    <div class="w3-padding-64">
-      <h1>Ulaşmak istersen</h1>
-    </div>
-    <div class="w3-padding-64">
-      <p>Hiç çekinmeden, istediğin konuda yazabilirsin.</p>
-      <p>salihbektastr@gmail.com</p>
-      <p>İstanbul TÜRKİYE</p>
-    </div>
-  </div>
-  <div class="w3-half w3-blue-grey w3-container" id="4" style="height:700px">
-    <div class="w3-padding-64 w3-padding-large">
-      <h1>Ayrıca bakınız</h1>
-      <br>
-	  <a href="https://twitter.com/salihbektastr" class="fa fa-twitter"> @salihbektastr</a>
-	  <br>
-	  <a href="https://www.instagram.com/salihbektastr/" class="fa fa-instagram"> @salihbektastr</a>
-	  <br>
-	  <a href="https://tr.linkedin.com/in/salih-bekta%C5%9F-006092116?trk=prof-samename-name" class="fa fa-linkedin"> Salih Bektaş</a>
-      
-    </div>
-  </div>
-</div>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    
+    <nav class="navbar bg-dark navbar-dark navbar-expand-md fixed-top">
+        <div class="container">
+            <a href="#none" class="navbar-brand ">Salih Bektaş</a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#Döviz" class="nav-link">Döviz Hesaplayıcı</a>  
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Kemer" class="nav-link">Nefes Ölçüm Kemeri</a>  
+                    </li>
+                    <li class="nav-item">
+                        <a href="#XOX" class="nav-link">XOX Oyunu</a>  
+                    </li>
+                    <li class="nav-item d-none">
+                        <a href="#Proje-2" class="nav-link">Proje 2</a>  
+                    </li>
+                    <li class="nav-item">
+                        <a href="#İletişim" class="nav-link">İletişim</a>  
+                    </li>
 
-<!-- Footer -->
-<footer class="w3-container w3-black w3-padding-16">
-  <a href="https://salihbektas.github.io">salihbektas.github.io </a>
-</footer>
-
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div id="Selamlar" class="jumbotron my-0" style="padding-top: 100px;">
+        <div class="container">
+            <div class="col-md-6 my-0">
+                <h1 class="display-3">Merhabalar</h1>
+                <p class="lead">Ben deniz Gebze Teknik Üniversitesi
+                    Bilgisayar Mühendisliği bölümünde okumakta 
+                    olan bir mühendis adayıyım.
+                </p>
+                <p class="lead">Yeni yetenekler edinmek ve bunları uygulamayı severim. 
+                    HTML ve Bootstrap öğrendikten sonra yaptığım projeleri 
+                    anlatan bu siteyi hazırlamaya karar verdim.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div id="Döviz" class="bg-success" style="padding-bottom: 100px; padding-top: 100px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 order-md-last my-3">
+                    <h1 class="display-4">Döviz Hesaplayıcı</h1>
+                    <p>Avrupa Merkez Bankasından güncel kur oranlarını alıp
+                        istenilen para birimleri arasında hesaplama yapan
+                        <span class="font-weight-bold">Python ve PyQT</span>
+                        ile geliştirilmiş masaüstü uygulaması.
+                    </p>
+                    <a href="currencyCalculator.html">
+                        <button type="button" class="btn btn-dark">Proje detayları...</button>
+                    </a>
+                </div>
+                <div class="col-md-6 my-3">
+                    <img src="assets/currencyCalSS.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="Kemer" class="bg-warning" style="padding-bottom: 100px; padding-top: 100px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 my-3">
+                    <h1 class="display-4">Nefes Ölçüm Kemeri</h1>
+                    <p class="my-3"><span class="font-weight-bold">STM32 Nucleo geliştirme kartı</span>
+                        ile kemer üstüne takılan sensörlerle nefes alma verme ölçüm cihazı
+                    </p>
+                    <a href="breathSensor.html">
+                        <button type="button" class="btn btn-dark">Proje detayları...</button>
+                    </a>
+                </div>
+                <div class="col-md-6 my-3">
+                    <img src="assets/sonproje.jpg" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="XOX" class="bg-info" style="padding-bottom: 100px; padding-top: 100px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 order-md-last ml-auto">
+                    <h1 class="display-4">XOX Oyunu</h1>
+                    <p class="my-3"><span class="font-weight-bold">Python ve PyQT</span>
+                        ile yaptığım ilk uygulama. Basit bir XOX oyunu. 
+                    </p>
+                    <a href="XOXGame.html">
+                        <button type="button" class="btn btn-dark">Proje detayları...</button>
+                    </a>
+                </div>
+                <div class="col-md-6 my-3">
+                    <img src="assets/playScreen.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="İletişim" class="bg-secondary" style="padding-bottom: 70px; padding-top: 100px;">
+        <div class="container">
+            <h1>İletişim</h1>
+            <button type="button" class="btn buttonM btn-block" style="width: 250px; margin-bottom: 5px;">
+                <img src="assets/mail.png" style="width: 25px; height: 25px; margin-right: 16px;"> salihbektastr@gmail.com
+            </button>
+            <a href="https://github.com/salihbektas">
+                <button type="button" class="btn btn-dark btn-block" style="width: 250px; margin-bottom: 5px;">
+                    <img src="assets/githublogo.png" style="width: 25px; height: 25px; margin-right: 16px;"> GitHub/salihbektas
+                </button>
+            </a>
+            <a href="https://www.linkedin.com/in/salih-bekta%C5%9F-006092116/">
+                <button type="button" class="btn btn-light btn-block" style="width: 250px; margin-bottom: 5px;">
+                    <img src="assets/linkedin.png" style="width: 25px; height: 25px; margin-right: 16px;"> linkedin/salihbektaş
+                </button>
+            </a>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
+
+
+
 </html>
