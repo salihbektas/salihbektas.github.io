@@ -6,3 +6,230 @@ layout: home
 title: Home
 banner: "/assets/images/banners/home.jpeg"
 ---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <title>Salih Bektaş</title>
+
+    <style>
+      body {
+        position: relative;
+      }
+      .navbar {
+        opacity: 0.95;
+      }
+
+      .buttonM {
+        background-color: #f44336;
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar bg-dark navbar-dark navbar-expand-md fixed-top">
+      <div class="container">
+        <a href="#none" class="navbar-brand">Salih Bektaş</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#myNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#Döviz" class="nav-link">Döviz Hesaplayıcı</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Kemer" class="nav-link">Nefes Ölçüm Kemeri</a>
+            </li>
+            <li class="nav-item">
+              <a href="#XOX" class="nav-link">XOX Oyunu</a>
+            </li>
+            <li class="nav-item d-none">
+              <a href="#Proje-2" class="nav-link">Proje 2</a>
+            </li>
+            <li class="nav-item">
+              <a href="#İletişim" class="nav-link">İletişim</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="Selamlar" class="jumbotron my-0" style="padding-top: 100px">
+      <div class="container">
+        <div class="col-md-6 my-0">
+          <h1 class="display-3">Merhabalar</h1>
+          <p class="lead">
+            Ben deniz Gebze Teknik Üniversitesi Bilgisayar Mühendisliği
+            bölümünde okumakta olan bir mühendis adayıyım.
+          </p>
+          <p class="lead">
+            Yeni yetenekler edinmek ve bunları uygulamayı severim. HTML ve
+            Bootstrap öğrendikten sonra yaptığım projeleri anlatan bu siteyi
+            hazırlamaya karar verdim.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="Döviz"
+      class="bg-success"
+      style="padding-bottom: 100px; padding-top: 100px"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 order-md-last my-3">
+            <h1 class="display-4">Döviz Hesaplayıcı</h1>
+            <p>
+              Avrupa Merkez Bankasından güncel kur oranlarını alıp istenilen
+              para birimleri arasında hesaplama yapan
+              <span class="font-weight-bold">Python ve PyQT</span>
+              ile geliştirilmiş masaüstü uygulaması.
+            </p>
+            <a href="currencyCalculator.html">
+              <button type="button" class="btn btn-dark">
+                Proje detayları...
+              </button>
+            </a>
+          </div>
+          <div class="col-md-6 my-3">
+            <img src="assets/currencyCalSS.png" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="Kemer"
+      class="bg-warning"
+      style="padding-bottom: 100px; padding-top: 100px"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 my-3">
+            <h1 class="display-4">Nefes Ölçüm Kemeri</h1>
+            <p class="my-3">
+              <span class="font-weight-bold"
+                >STM32 Nucleo geliştirme kartı</span
+              >
+              ile kemer üstüne takılan sensörlerle nefes alma verme ölçüm cihazı
+            </p>
+            <a href="breathSensor.html">
+              <button type="button" class="btn btn-dark">
+                Proje detayları...
+              </button>
+            </a>
+          </div>
+          <div class="col-md-6 my-3">
+            <img src="assets/sonproje.jpg" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="XOX"
+      class="bg-info"
+      style="padding-bottom: 100px; padding-top: 100px"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 order-md-last ml-auto">
+            <h1 class="display-4">XOX Oyunu</h1>
+            <p class="my-3">
+              <span class="font-weight-bold">Python ve PyQT</span>
+              ile yaptığım ilk uygulama. Basit bir XOX oyunu.
+            </p>
+            <a href="XOXGame.html">
+              <button type="button" class="btn btn-dark">
+                Proje detayları...
+              </button>
+            </a>
+          </div>
+          <div class="col-md-6 my-3">
+            <img src="assets/playScreen.png" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="İletişim"
+      class="bg-secondary"
+      style="padding-bottom: 70px; padding-top: 100px"
+    >
+      <div class="container">
+        <h1>İletişim</h1>
+        <button
+          type="button"
+          class="btn buttonM btn-block"
+          style="width: 250px; margin-bottom: 5px"
+        >
+          <img
+            src="assets/mail.png"
+            style="width: 25px; height: 25px; margin-right: 16px"
+          />
+          salihbektastr@gmail.com
+        </button>
+        <a href="https://github.com/salihbektas">
+          <button
+            type="button"
+            class="btn btn-dark btn-block"
+            style="width: 250px; margin-bottom: 5px"
+          >
+            <img
+              src="assets/githublogo.png"
+              style="width: 25px; height: 25px; margin-right: 16px"
+            />
+            GitHub/salihbektas
+          </button>
+        </a>
+        <a href="https://www.linkedin.com/in/salih-bekta%C5%9F-006092116/">
+          <button
+            type="button"
+            class="btn btn-light btn-block"
+            style="width: 250px; margin-bottom: 5px"
+          >
+            <img
+              src="assets/linkedin.png"
+              style="width: 25px; height: 25px; margin-right: 16px"
+            />
+            linkedin/salihbektaş
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
