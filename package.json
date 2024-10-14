@@ -12,6 +12,7 @@
     "url": "https://github.com/stackrole/gatsby-starter-foundation/issues"
   },
   "scripts": {
+    "deploy": "gatsby build && gh-pages -d public -b main",
     "build": "gatsby build --log-pages",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
@@ -51,6 +52,7 @@
     "theme-ui": "^0.6.2"
   },
   "devDependencies": {
-    "gatsby-plugin-netlify": "^4.1.0"
+    "gatsby-plugin-netlify": "^4.1.0",
+    "gh-pages": "^6.2.0"
   }
 }
