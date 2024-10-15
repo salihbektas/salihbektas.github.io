@@ -3,7 +3,7 @@ template: index-page
 slug: /
 title: Salih Bektaş
 tagline: React Native Developer
-featuredImage: /assets/toa-heftiba-0rlfirsdvzu-unsplash.jpg
+featuredImage: /assets/ben.jpg
 cta:
   ctaText: Hakkımda Daha Fazlası
   ctaLink: /about
