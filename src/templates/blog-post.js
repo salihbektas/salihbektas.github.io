@@ -27,25 +27,26 @@ const styles = {
 const Pagination = props => (
   <div className="pagination -post" sx={styles.pagination}>
     <ul>
-      {props.previous && props.previous.frontmatter.template === "blog-post" && (
-        <li>
-          <Link to={props.previous.frontmatter.slug} rel="prev">
-            <p
-              sx={{
-                color: "muted",
-              }}
-            >
-              <span className="icon -left">
-                <RiArrowLeftLine />
-              </span>{" "}
-              Previous
-            </p>
-            <span className="page-title">
-              {props.previous.frontmatter.title}
-            </span>
-          </Link>
-        </li>
-      )}
+      {props.previous &&
+        props.previous.frontmatter.template === "blog-post" && (
+          <li>
+            <Link to={props.previous.frontmatter.slug} rel="prev">
+              <p
+                sx={{
+                  color: "muted",
+                }}
+              >
+                <span className="icon -left">
+                  <RiArrowLeftLine />
+                </span>{" "}
+                Previous
+              </p>
+              <span className="page-title">
+                {props.previous.frontmatter.title}
+              </span>
+            </Link>
+          </li>
+        )}
       {props.next && props.next.frontmatter.template === "blog-post" && (
         <li>
           <Link to={props.next.frontmatter.slug} rel="next">
@@ -95,7 +96,7 @@ const Post = ({ data, pageContext }) => {
         <header className="featured-banner">
           <section className="article-header">
             <h1>{frontmatter.title}</h1>
-            <time sx={{color: "muted"}}>{frontmatter.date}</time>
+            <time sx={{ color: "muted" }}>{frontmatter.date}</time>
           </section>
           {Image ? (
             <GatsbyImage
@@ -127,7 +128,7 @@ export const pageQuery = graphql`
       html
       excerpt(pruneLength: 148)
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "DD MMMM YYYY", locale: "tr-TR")
         slug
         title
         description
