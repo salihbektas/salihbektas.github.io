@@ -9,4 +9,4 @@ cta:
   ctaLink: /about
 ---
 
-Kendisini geliştirmeye çalışan bir yazılımcı. Bu site daha yapım aşamasındadır.
+Kendisini geliştirmeye çalışan bir yazılımcı.
