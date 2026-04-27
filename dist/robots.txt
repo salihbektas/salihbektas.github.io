@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://multiterm.stelclementine.com/sitemap-index.xml
