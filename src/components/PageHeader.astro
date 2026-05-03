@@ -17,7 +17,7 @@ if (pieces.length === 0) {
   pieces.push('home')
 }
 
-const titleFromPieces = pieces.map((part) => `/ ${part}`)
+const titleFromPieces = pieces.map((part) => `/ ${part === 'posts' ? 'Yazılar' : part}`)
 ---
 
 <div
