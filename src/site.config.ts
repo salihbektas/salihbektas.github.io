@@ -29,15 +29,15 @@ const config: SiteConfig = {
   // The navigation links to display in the header.
   navLinks: [
     {
-      name: "Home",
+      name: "Ana Sayfa",
       url: "/",
     },
     {
-      name: "About",
+      name: "Hakkımda",
       url: "/about",
     },
     {
-      name: "Archive",
+      name: "Yazılar",
       url: "/posts",
     },
     {
