@@ -1,7 +1,9 @@
 ---
 avatarImage:
-  src: './avatar.jpg'
-  alt: 'My avatar'
+  src: "./avatar.jpg"
+  alt: "My avatar"
 ---
 
-Thanks for reading my blog post! Feel free to check out my other posts or contact me via the social links in the footer.
+Blog yazımı okuduğun için teşekkürler. Eğer bana ulaşmak istersen e-posta atabilir ya da aşağıdaki sosyal medya linklerinden bana ulaşabilirsin.
+
+Yeni yazılarımda görüşmek üzere.
