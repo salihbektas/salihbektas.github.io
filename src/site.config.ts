@@ -11,7 +11,7 @@ const config: SiteConfig = {
   // The author of the site, used in the footer, SEO, and RSS feed.
   author: "Salih Bektas",
   // Keywords for SEO, used in the meta tags.
-  tags: ["Astro", "Terminal", "Theme", "MultiTerm", "stelcodes"],
+  tags: ["typescript", "mobile apps", "Expo", "React-Native", "salihbektas"],
   // Path to the image used for generating social media previews.
   // Needs to be a square JPEG file due to limitations of the social card generator.
   // Try https://squoosh.app/ to easily convert images to JPEG.
