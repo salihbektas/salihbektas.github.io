@@ -1,6 +1,6 @@
-import type { RemarkPlugin } from '@astrojs/markdown-remark'
-import getReadingTime from 'reading-time'
-import { toString } from 'mdast-util-to-string'
+import type { RemarkPlugin } from "@astrojs/markdown-remark"
+import getReadingTime from "reading-time"
+import { toString } from "mdast-util-to-string"
 
 const remarkReadingTime: RemarkPlugin = (_options?) => {
   return function (tree, { data }) {
@@ -9,7 +9,7 @@ const remarkReadingTime: RemarkPlugin = (_options?) => {
       const readingTime = getReadingTime(textOnPage)
       // readingTime.text will give us minutes read as a friendly string,
       // i.e. "3 min read"
-      data.astro.frontmatter.minutesRead = readingTime.text
+      data.astro.frontmatter.minutesRead = `${Math.ceil(readingTime.minutes)} dakika okuma süresi`
     }
   }
 }
