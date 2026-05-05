@@ -61,6 +61,7 @@ export default defineConfig({
     responsiveStyles: true,
   },
   vite: {
+    // @ts-expect-error - Mismatch between Astro's Vite version and Tailwind's Vite version types
     plugins: [tailwindcss()],
   },
   integrations: [
