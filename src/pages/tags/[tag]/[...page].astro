@@ -32,9 +32,9 @@ const pageTitle =
     {page.data.map((post) => <PostPreview post={post} />)}
     <Pagination
       prevLink={page.url.prev ? encodeURI(page.url.prev) : undefined}
-      prevText="Newer Posts"
+      prevText="Güncel Yazılar"
       nextLink={page.url.next ? encodeURI(page.url.next) : undefined}
-      nextText="Older Posts"
+      nextText="Eski Yazılar"
     />
   </div>
 </Layout>
