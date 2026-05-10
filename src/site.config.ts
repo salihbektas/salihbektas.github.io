@@ -91,11 +91,10 @@ const config: SiteConfig = {
   // Social links to display in the footer.
   socialLinks: {
     github: "https://github.com/salihbektas",
-    mastodon: "https://github.com/salihbektas",
-    email: "https://github.com/salihbektas",
-    linkedin: "https://github.com/salihbektas",
-    bluesky: "https://github.com/salihbektas",
-    twitter: "https://github.com/salihbektas",
+    email: "salihbektasdev@gmail.com",
+    linkedin: "https://www.linkedin.com/in/salih-bektaş/",
+    bluesky: "https://bsky.app/profile/salihbektas.bsky.social",
+    twitter: "https://x.com/salihbektasTR",
     rss: true, // Set to true to include an RSS feed link in the footer
   },
   // Configuration for Giscus comments.
