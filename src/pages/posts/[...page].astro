@@ -14,7 +14,7 @@ export const getStaticPaths = (async ({ paginate }) => {
 }) satisfies GetStaticPaths
 
 const { page } = Astro.props
-const pageTitle = 'Arşiv' + (page.currentPage > 1 ? ` - Sayfa ${page.currentPage}` : '')
+const pageTitle = 'Tüm Yazılar' + (page.currentPage > 1 ? ` - Sayfa ${page.currentPage}` : '')
 ---
 
 <Layout title={pageTitle} description="Tüm Yazılar">

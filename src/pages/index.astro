@@ -40,7 +40,7 @@ const postsHaveSeries = sortedPosts.some((post) => post.data.series)
   {
     postsHaveSeries && (
       <section>
-        <BlockHeader>Series</BlockHeader>
+        <BlockHeader>Seriler</BlockHeader>
         <SeriesSection posts={sortedPosts} />
       </section>
     )
@@ -63,7 +63,7 @@ const postsHaveSeries = sortedPosts.some((post) => post.data.series)
           .map((post) => (
             <PostPreview post={post} />
           ))}
-        <Pagination nextLink="/posts" nextText="Arşiv" />
+        <Pagination nextLink="/posts" nextText="Tüm Yazılar" />
       </section>
     )
   }
