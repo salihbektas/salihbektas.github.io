@@ -305,3 +305,18 @@ const height = labelHeight + (blockSize + blockMargin) * 7 - blockMargin
     )
   }
 </article>
+
+<script>
+  function scrollCalendarToRight() {
+    const calendars = document.querySelectorAll('#github-activity-calendar > div');
+    calendars.forEach((container) => {
+      container.scrollLeft = container.scrollWidth;
+    });
+  }
+
+  // Scroll on initial load
+  scrollCalendarToRight();
+
+  // Support for Astro View Transitions (if added later)
+  document.addEventListener('astro:page-load', scrollCalendarToRight);
+</script>
